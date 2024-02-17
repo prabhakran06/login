@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+
+}
+
+form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 5px 5px 10px 10px black;
+    border-radius: 5%;
+    border-left: 1px solid #fafafa;
+    border-top: 1px solid #fafafa;
+    cursor:pointer;
+}
+i{
+    position: relative;
+    bottom: 1.5cm;
+    left: 90%;
+    font-size: larger;
+    color: white;
+}
+
+h1{
+    font-size: 50px ;
+    text-align: center;
+    color: #fafafa;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    
+}
+
+label{
+    font-size: 20px;
+    color: #fafafa;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fafafa;
+    border-bottom: 1px solid white;
+    opacity: .8;
+}
+
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: #fafafa;
+    font-size: 15px;
+    opacity: .8;
+    background:  rgba(255, 255, 255, 0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.06);
+    box-shadow: 3px 3px 5px rgba(2, 5, 51, 0.37);
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+}
+
+a{
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
